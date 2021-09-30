@@ -1,0 +1,5 @@
+Để thao tác với mảng kí tự, chúng ta cần include thư viện cstring vào chương trình để được cung cấp một số hàm sẵn có. Tuy vậy, việc xử lý mảng kí tự vẫn còn nhiều khó khăn. Một ví dụ điển hình là việc bạn thực hiện nối chuỗi kí tự bằng hàm strcat. Bạn luôn phải để tâm đến việc số lượng ô nhớ mà bạn đã cấp phát cho mảng kí tự có đủ để chứa thêm chuỗi kí tự được nối vào không. Hay là khi bạn khai báo một mảng kí tự, bạn cũng phải đặt ra câu hỏi: Liệu bao nhiêu ô nhớ là đủ? Và bạn phải luôn đặt kí tự '\0' tại vị trí kết thúc chuỗi kí tự... Quá nhiều thứ khiến bạn phải để tâm.
+
+Trong bài học hôm nay, mình sẽ giới thiệu với các bạn về kiểu dữ liệu string được định nghĩa trong thư viện string của ngôn ngữ C++ (các bạn đừng nhầm lẫn giữa thư viện cstring của ngôn ngữ C với thư viện string của ngôn ngữ C++, hai thư viện này hoàn toàn riêng biệt).
+
+Các bạn có thể làm được gì với thư viện string mà ngôn ngữ C++ cung cấp? Trước hết, chúng ta hãy cùng xem thư viện string là gì, và nó chứa những gì bên trong.
